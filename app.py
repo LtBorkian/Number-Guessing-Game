@@ -3,7 +3,7 @@ import random
 
 st.title("🎮 Number Guessing Game")
 
-st.writing("Created by Jacques Francoix (a.k.a Lt Borkian)")
+st.write("Created by Jacques Francoix (a.k.a Lt Borkian)")
 
 if 'random_number' not in st.session_state:
     st.session_state['random_number'] = random.randint(1, 100)
